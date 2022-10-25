@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/pink_200">
+
+    <ImageView
+        android:layout_width="227dp"
+        android:layout_height="155dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="500dp"
+        android:src="drawable/14-trivia-app-ui-design-android.jpg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="227dp"
+        android:layout_height="155dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="500dp"
+        android:src="drawable/14-trivia-app-ui-design-android.jpg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:text="Password"
+        android:layout_width="310dp"
+        android:layout_height="61dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <EditText
+        android:text="Email"
+        android:layout_width="308dp"
+        android:layout_height="63dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="138dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:text="Username"
+        android:layout_width="308dp"
+        android:layout_height="65dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="73dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="274dp"
+        android:layout_height="70dp"
+        android:text="Next"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
